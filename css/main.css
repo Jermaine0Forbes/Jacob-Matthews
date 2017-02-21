@@ -1,0 +1,116 @@
+/*================================
+    ELEMENTS
+================================*/
+
+body
+{
+  font-family:georgia,serif;
+  background:wheat;
+}
+
+/*================================
+    HEADER
+================================*/
+
+#top-nav
+{
+  background:white;
+  color:#f26551;
+}
+
+
+#logo a
+{
+  color:#f26551;
+  text-transform:uppercase;
+}
+
+#bottom-nav
+{
+  background:#f26551;
+  color:white;
+}
+
+#couch-categories
+{
+  margin:auto;
+}
+
+#bottom-nav a
+{
+  color:white;
+  text-transform:capitalize;
+
+}
+
+/*================================
+    MAIN
+================================*/
+
+main
+{
+  background-color:white;
+}
+
+.slide
+{
+  overflow:hidden;
+}
+
+.slide-description
+{
+  background:rgba(242, 101, 81,0.7);
+  text-align:center;
+  color:white;
+  padding:15px;
+}
+
+.item-price
+{
+  text-align:center;
+}
+
+.price
+{
+  display:inline-block;
+}
+
+.item-price a
+{
+  display: inline-block;
+  background: #f26551;
+  color: white;
+  padding: 0.5em 1em;
+  text-transform: capitalize;
+}
+
+/*================================
+    FOOTER
+================================*/
+
+
+footer
+{
+  background:#f26551;
+}
+
+footer .third h3,
+footer .third a
+{
+  color:white;
+}
+
+.foot-item ul li
+{
+  list-style-type:none;
+}
+
+.social-links
+{
+
+}
+
+.social-links a
+{
+  font-size:50px;
+}
