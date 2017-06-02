@@ -1,0 +1,155 @@
+/*************************
+    MAIN
+*************************/
+
+
+main .highlights{
+
+    margin-top:0;
+}
+
+
+main .headline.highlights div {
+
+    padding: 1em 0;
+
+    &:nth-of-type(2){
+        border-right: 1px solid $grey;
+        border-left: 1px solid $grey;
+    }
+    a span i{
+        color:$orange;
+    }
+
+}
+
+//.furniture-trio
+
+.furniture-trio{
+    a{
+        color:$black;
+    }
+}
+
+.furniture-trio h3{
+    font-size:22px;
+    text-align: center;
+    padding-top:1em;
+    transition:all 0.3s;
+    span{
+        color:$peach;
+    }
+}
+
+
+// .f-item
+
+.f-item{
+    .overflow{
+        overflow:hidden;
+        max-height:336px;
+    }
+
+    img{
+        transition:all 0.3s;
+        &:hover{
+            transform:scale(1.2);
+        }
+    }
+}
+
+// #instagram
+
+#instagram{
+    padding-top:5em;
+}
+
+// .jacob-carousel
+
+.jacob-carousel{
+    width:90%;
+    margin:auto;
+}
+
+
+// .slick
+
+.slick-list{
+    max-width:984px;
+    width:100%;
+}
+
+.slick-p,
+.slick-n
+{
+    background:$orange;
+    color:white;
+    border-radius:50%;
+    border:none;
+    position:absolute;
+    top:45%;
+    transition:all 0.3s;
+    &:hover{
+        background:$peach;
+    }
+}
+
+.slick-n{
+    right:-5%;
+}
+
+.slick-p{
+    left:-5%;
+}
+
+.slick-dots li button:before{
+    font-size:27px;
+
+}
+
+.slick-dots li.slick-active button:before{
+    color:$orange;
+}
+
+
+/*************************
+    MEDIA
+*************************/
+
+@media all and (max-width:1024px){
+    .f-item{
+        h3{
+            font-size:21px;
+        }
+    }
+
+}
+
+
+@media all and (max-width:768px){
+    .f-item{
+        h3{
+            font-size:16px;
+        }
+    }
+
+    main .headline.highlights div:nth-of-type(2){
+        border-right:none;
+        border-left:none;
+    }
+}
+
+
+@media all and (max-width:480px){
+    .f-item{
+        h3{
+            font-size:13px;
+        }
+    }
+
+    .jacob-carousel{
+        display:none;
+    }
+
+
+}

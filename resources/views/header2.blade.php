@@ -37,7 +37,8 @@
                         </a>
                     </li>
                    <li>
-                       <a href="#">
+                       <a class="shop-cart-container" href="#">
+                           <span class="shop-cart-counter">0</span>
                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                            <span>cart</span>
                        </a>
@@ -52,7 +53,7 @@
    <div class="container wide">
        <div class="row no-mar">
 
-           <div class="hidden-md-up col-10 pad padV">
+           <div class="hidden-md-up col-12 pad padV">
                <form class="col" method="post">
                    <div class="input-group nav-search" >
                      <input class="form-control" type="search" name="searchbar" value="" placeholder="Search Furniture">
@@ -87,13 +88,13 @@
                        <a class="nav-link" href="#" >Matresses & bedding</a>
                      </li>
                      <li class="nav-item">
-                       <a class="nav-link" href="#" >sale</a>
+                       <a class="nav-link highlight" href="#" >sale</a>
                      </li>
                      <li class="nav-item">
-                       <a class="nav-link" href="#" >most popular</a>
+                       <a class="nav-link highlight" href="#" >most popular</a>
                      </li>
                      <li class="nav-item">
-                       <a class="nav-link" href="#" >blog</a>
+                       <a class="nav-link highlight" href="#" >blog</a>
                      </li>
 
                  </ul>

@@ -1,4 +1,42 @@
 
+/*************************
+    CLASSES
+*************************/
+
+.mobile-text-center{
+    text-align:initial;
+}
+
+body{
+    color:$black;
+}
+
+p{
+    font-family:$lao;
+}
+
+.flex-left{
+    margin-right:auto;
+}
+
+.flex-right{
+    margin-left:auto;
+}
+
 .pull-right{
     float:right;
+}
+
+.bold{
+    color:$orange;
+}
+
+/*************************
+    MEDIA
+*************************/
+
+@media all and (max-width:768px){
+    .mobile-text-center{
+        text-align:center;
+    }
 }

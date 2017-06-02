@@ -18,7 +18,8 @@ grey: #b3b3b3
 body
 {
   font-family:georgia,serif;
-  background:#e6d1bc;
+  /*background:#e6d1bc;*/
+  background:#f2f2f2;
 }
 
 
@@ -151,6 +152,7 @@ body
 {
 
   color:#f7a397;
+  font-family:Lao UI,sans-serif;
 }
 
 #logo
@@ -183,6 +185,35 @@ body
   background:#f26551;
   color:white;
   /*padding:10px 0;*/
+}
+
+#bottom-nav nav.navbar
+{
+    padding:0;
+}
+
+#bottom-nav .nav-item
+{
+    padding:0;
+
+}
+
+#bottom-nav .nav-link
+{
+    padding:9px 10px;
+    transition:all 0.3s;
+}
+
+#bottom-nav .nav-link.highlight
+{
+    color:#f7a397;
+}
+
+
+#bottom-nav .nav-link:hover
+{
+    background:white;
+    color:#f7a397;
 }
 
 nav.navbar
@@ -350,7 +381,42 @@ main
 
 main section.row
 {
-  padding-top:5em;
+  /*padding-top:5em;*/
+}
+
+main .breadcrumb
+{
+    background-color:transparent;
+    padding:0.75em 0;
+    font-family:Lao UI,sans-serif;
+
+}
+
+main .breadcrumb-item
+{
+    font-size:15px;
+}
+
+main .breadcrumb-item a
+{
+    color: #b3b3b3;
+}
+
+main .breadcrumb-item+.breadcrumb-item::before
+{
+    content: ">";
+}
+
+main .highlights
+{
+    text-align:center;
+}
+
+main .highlights a
+{
+    text-transform:capitalize;
+    color:#b3b3b3;
+    font-family:Lao UI, sans-serif;
 }
 
 .headline
@@ -494,10 +560,11 @@ footer
   background:#f26551;
 }
 
-footer .third h3,
-footer .third a
+footer .foot-item h3,
+footer .foot-item a
 {
   color:white;
+  text-transform:capitalize;
 }
 
 .foot-item ul
@@ -512,13 +579,13 @@ footer .third a
 
 .foot-item  a
 {
-  text-align:center;
+  /*text-align:center;*/
   display:block;
 }
 
 .foot-item h3
 {
-  text-align:center;
+  /*text-align:center;*/
 }
 
 
@@ -569,6 +636,7 @@ footer .third a
   #bottom-nav .nav-link
   {
       font-size:13px;
+
   }
 
 }
@@ -667,7 +735,11 @@ footer .third a
   /*================================
       MAIN
   ================================*/
-
+  main .headline.highlights div:nth-of-type(2)
+  {
+      border-right:none;
+      border-left:none;
+  }
 
   .fourth,
   .adjust .fourth

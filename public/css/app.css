@@ -1,4 +1,223 @@
+/*************************
+    CLASSES
+*************************/
+.mobile-text-center {
+  text-align: initial; }
+
+body {
+  color: #636c72; }
+
+p {
+  font-family: Lao UI, sans-serif; }
+
+.flex-left {
+  margin-right: auto; }
+
+.flex-right {
+  margin-left: auto; }
+
 .pull-right {
   float: right; }
+
+.bold {
+  color: #f26551; }
+
+/*************************
+    MEDIA
+*************************/
+@media all and (max-width: 768px) {
+  .mobile-text-center {
+    text-align: center; } }
+
+/*************************
+    MAIN
+*************************/
+main .highlights {
+  margin-top: 0; }
+
+main .headline.highlights div {
+  padding: 1em 0; }
+  main .headline.highlights div:nth-of-type(2) {
+    border-right: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3; }
+  main .headline.highlights div a span i {
+    color: #f26551; }
+
+.furniture-trio a {
+  color: #636c72; }
+
+.furniture-trio h3 {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 1em;
+  transition: all 0.3s; }
+  .furniture-trio h3 span {
+    color: #f7a397; }
+
+.f-item .overflow {
+  overflow: hidden;
+  max-height: 336px; }
+
+.f-item img {
+  transition: all 0.3s; }
+  .f-item img:hover {
+    transform: scale(1.2); }
+
+#instagram {
+  padding-top: 5em; }
+
+.jacob-carousel {
+  width: 90%;
+  margin: auto; }
+
+.slick-list {
+  max-width: 984px;
+  width: 100%; }
+
+.slick-p,
+.slick-n {
+  background: #f26551;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 45%;
+  transition: all 0.3s; }
+  .slick-p:hover,
+  .slick-n:hover {
+    background: #f7a397; }
+
+.slick-n {
+  right: -5%; }
+
+.slick-p {
+  left: -5%; }
+
+.slick-dots li button:before {
+  font-size: 27px; }
+
+.slick-dots li.slick-active button:before {
+  color: #f26551; }
+
+/*************************
+    MEDIA
+*************************/
+@media all and (max-width: 1024px) {
+  .f-item h3 {
+    font-size: 21px; } }
+
+@media all and (max-width: 768px) {
+  .f-item h3 {
+    font-size: 16px; }
+  main .headline.highlights div:nth-of-type(2) {
+    border-right: none;
+    border-left: none; } }
+
+@media all and (max-width: 480px) {
+  .f-item h3 {
+    font-size: 13px; }
+  .jacob-carousel {
+    display: none; } }
+
+/*************************
+    HEADER
+*************************/
+#top-nav .shop-cart-container {
+  position: relative; }
+
+#top-nav .shop-cart-counter {
+  position: absolute;
+  background: #f7a397;
+  border-radius: 50%;
+  color: white;
+  z-index: 3;
+  font-weight: bold;
+  min-width: 18px;
+  min-height: 18px;
+  text-align: center;
+  top: -9px; }
+
+#mobile-menu {
+  -ms-flex-item-align: center;
+  align-self: center; }
+
+/*************************
+    MEDIA
+*************************/
+@media all and (max-width: 768px) {
+  #logo {
+    top: -5px; }
+  .social-links {
+    margin-top: 0; } }
+
+@media all and (max-width: 480px) {
+  #logo a {
+    font-size: 23px; } }
+
+/*************************
+    FOOTER
+*************************/
+footer #footer-right input[type="search"] {
+  height: 42px; }
+
+footer .search {
+  padding-top: 1em; }
+  footer .search h4 {
+    padding-bottom: 1em; }
+
+footer .foot-item a {
+  font-size: 0.8em;
+  font-family: Lao UI, sans-serif;
+  transition: all 0.3s; }
+  footer .foot-item a:hover {
+    text-decoration: underline; }
+
+footer h4 {
+  color: white;
+  text-transform: capitalize; }
+
+footer .social-links {
+  padding-top: 0; }
+
+footer .social-links h4 {
+  padding-bottom: 1em; }
+
+footer #footer-left {
+  border-right: 1px solid #f7a397; }
+
+footer #footer-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1em 0;
+  border-top: #f7a397 2px solid;
+  color: white; }
+
+footer .social-links li {
+  background: #b3b3b3;
+  min-width: 45px;
+  min-height: 45px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+footer .social-links a {
+  color: white;
+  background: #b3b3b3;
+  border-radius: 50%;
+  font-size: 24px; }
+
+/*************************
+    MEDIA
+*************************/
+@media all and (max-width: 768px) {
+  footer #footer-left {
+    border-right: none;
+    margin-bottom: 0; } }
 
 /*# sourceMappingURL=app.css.map */

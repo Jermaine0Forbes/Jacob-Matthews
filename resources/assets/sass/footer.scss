@@ -1,0 +1,101 @@
+/*************************
+    FOOTER
+*************************/
+
+footer{
+
+    #footer-right input[type="search"]{
+        height:42px;
+    }
+
+    .search{
+        padding-top:1em;
+
+        h4{
+            padding-bottom:1em;
+        }
+    }
+
+    .foot-item{
+        a{
+            font-size:0.8em;
+            font-family:Lao UI, sans-serif;
+            transition:all 0.3s;
+            &:hover{
+                text-decoration:underline;
+            }
+
+        }
+
+
+    }
+
+
+    h4{
+        color:white;
+        text-transform:capitalize;
+    }
+
+    .social-links{
+        padding-top:0;
+    }
+
+    .social-links h4{
+        padding-bottom:1em;
+    }
+
+    #footer-left{
+        border-right:1px solid $peach;
+    }
+
+    #footer-bottom{
+        display: flex;
+        justify-content: center;
+        padding: 1em 0;
+        border-top: $peach 2px solid;
+        color:white;
+    }
+}
+
+
+footer .social-links{
+
+    li{
+        background: $grey;
+        min-width: 45px;
+        min-height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        color:white;
+        background:$grey;
+        border-radius:50%;
+        font-size:24px;
+    }
+}
+
+/*************************
+    MEDIA
+*************************/
+@media all and (max-width:768px){
+
+    footer{
+        #footer-left{
+           border-right:none;
+           margin-bottom:0;
+       }
+    }
+
+}
+
+@media all and (max-width:480px){
+
+}
+
+@media all and (max-width:320px){
+
+}
