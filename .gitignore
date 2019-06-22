@@ -1,6 +1,8 @@
 /vendor
 /node_modules
 /public/storage
+angular/node_modules
+angular/package-lock.json
 Homestead.yaml
 Homestead.json
 .env

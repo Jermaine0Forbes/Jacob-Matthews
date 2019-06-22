@@ -1,5 +1,7 @@
 @extends('layout')
 
+
+
 @section('title', 'Jacob Matthews Furniture Store')
 
 @section('content')
